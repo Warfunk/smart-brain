@@ -1,0 +1,12 @@
+.Tilt {
+  background: linear-gradient(
+    89deg,
+    rgba(22, 25, 243, 0.911) 0%,
+    rgb(240, 54, 54) 100%
+  );
+}
+
+.brain {
+  display: flex;
+  justify-content: flex-start;
+}

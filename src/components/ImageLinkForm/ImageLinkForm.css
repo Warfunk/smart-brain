@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  width: 700px;
+  background: radial-gradient(
+      circle at 100% 50%,
+      transparent 20%,
+      rgba(12, 253, 4, 0.87) 21%,
+      rgba(12, 253, 4, 0.87) 34%,
+      transparent 35%,
+      transparent
+    ),
+    radial-gradient(
+        circle at 0% 50%,
+        transparent 20%,
+        rgba(12, 253, 4, 0.87) 21%,
+        rgba(12, 253, 4, 0.87) 34%,
+        transparent 35%,
+        transparent
+      )
+      0 -50px;
+  background-color: rgb(66, 24, 216);
+  background-size: 75px 100px;
+}
+
+.purp {
+  background-color: rgb(19, 31, 207);
+}
+
+input {
+  width: 70%;
+}
+
+button {
+  width: 30%;
+}
+
+@media only screen and (max-width: 380px) {
+  .form {
+    width: 250px;
+    display: inline;
+    font-size: 12px;
+  }
+  button {
+    width: 60%;
+  }
+  input {
+    width: 100%;
+  }
+}
